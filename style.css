@@ -32,7 +32,8 @@
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    /* background: linear-gradient(to bottom, #000428, #004e92);  */
+    background: linear-gradient(to bottom right, #bc41f5 0%, #51a2f8 25%, #72a0b6 50%, #5ecfd3 75%, #eba2c9 100%);
+
   }
 
 
@@ -69,13 +70,7 @@ body{
     /* border-radius: 20px; */
 
 }
-/* .container::after{
-    position: absolute;
-    border: 5px solid transparent;
-    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
-    border-image-slice: 1;
-    border-radius: 10px;
-} */
+
 .container .left-side{
     position: relative;
     background-color: #013048;
@@ -343,5 +338,16 @@ body{
     0% { transform: rotate(0) }
   
     100% { transform: rotate(360deg) }
-  }
+}
 
+@keyframes animatedgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
