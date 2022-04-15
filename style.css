@@ -62,13 +62,26 @@ body{
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
     margin: 50px;
-    /* border: 10px solid #ccc; */
-    border: 5px solid transparent;
+    /* border: 5px solid transparent;
     border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
-    border-image-slice: 1;
-    border-radius: 10px;
-    /* border-radius: 20px; */
+    border-image-slice: 1; */
 
+    background: #1D1F20;
+    border-radius: 10px;
+}
+
+.container::after{
+    content: '';
+    position: absolute;
+    top: calc(-1 * 8px);
+    left: calc(-1 * 8px);
+    height: calc(100% + 8px * 2);
+    width: calc(100% + 8px * 2);
+    background: linear-gradient(90deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    border-radius: calc(2 * 3px);
+    z-index: -1;
+    animation: animatedgradient 2.5s ease alternate infinite;
+    background-size: 300% 300%;
 }
 
 .container .left-side{
@@ -333,12 +346,6 @@ body{
     background: var(--color-forth) 
 }
     
-
-@keyframes o-rotate-360 {
-    0% { transform: rotate(0) }
-  
-    100% { transform: rotate(360deg) }
-}
 
 @keyframes animatedgradient {
 	0% {
