@@ -55,8 +55,8 @@ body{
     /* background-color: rgb(165, 81, 243); */
     /* background-color: linear-gradient(#0f2027, #203a43, #2c5364); */
     /* background: linear-gradient(to bottom, #000428, #004e92); */
-    background: linear-gradient(-45deg, #0a1366, #223a37, #078f44, #2c5364);
-    animation: animatedgradient 10s ease infinite;
+    background: linear-gradient(-45deg, #16777e, #404181, #31205f,  #7447a8, #a371a5);
+    animation: animatedgradient 6s ease infinite;
     background-size: 400% 400%;
     display: flex;
     justify-content: center;
