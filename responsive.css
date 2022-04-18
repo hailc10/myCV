@@ -51,6 +51,9 @@
         margin-top: 10px;
     }
 
+    .wrapper{
+        display: none;
+    }
 }
 
 
@@ -98,7 +101,9 @@
     .container .right-side .about .box .project-description h4{
         margin-top: 10px;
     }
-    
+    .wrapper{
+        display: none;
+    }
 
 }
 
@@ -117,8 +122,19 @@
     .container .right-side .about .box .project-description h4{
         margin-top: 10px;
     }
+    .wrapper{
+        display: none;
+    }
 }
 
-@media (max-width: 1023px){
+@media (max-width: 1024px){
+    .wrapper{
+        display: none;
+    }
+}
 
+@media (max-width: 1366px){
+    .wrapper{
+        display: none;
+    }
 }
