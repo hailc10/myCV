@@ -1,0 +1,124 @@
+@media (max-width: 739px) {
+    /* .container{
+        display: flex;
+    } */
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    .container {
+        width: 100%;
+        display: block;
+        margin: 0 0;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        border: none;
+        background: none;
+        border-radius: 0;
+    }
+    .container .left-side{
+        background-color: #013048;
+        position: relative;
+        width: 100%;
+        margin: 0 0px;
+    }
+
+    .container .right-side .skill .box{
+        display: block;
+    }
+
+    .container .right-side{
+        background-color: #fff;
+        position: relative;
+    }
+
+    .container .right-side .about .box{
+        display: block;
+    }
+    .container .left-side .contact-info ul li .text{
+        display: block;
+    }
+
+    .container .right-side .about .box .project .link {
+        font-size: 1.4em;
+        padding-bottom: 10px;
+    }
+    .container .right-side .about .box .project-description h4{
+        margin-top: 10px;
+    }
+
+}
+
+
+@media (max-width:320px){
+
+    ::-webkit-scrollbar{
+        display: none;
+    }
+
+    .container {
+        display: block;
+        width: 100%;
+        margin: 0 0;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        border: none;
+        background: none;
+        border-radius: 0;
+    }
+    .container .left-side{
+        background-color: #013048;
+        position: relative;
+        width: 100%;
+        margin: 0 1000px;
+        margin: 0 0px;
+        top: 0;
+    }
+
+    .container .left-side .contact-info ul li .text{
+        display: block;
+    }
+
+    .container .right-side .skill .box{
+        display: block;
+    }
+
+    .container .right-side .about .box{
+        display: block;
+    }
+
+    .container .right-side .about .box .project .link {
+        font-size: 1.4em;
+        padding-bottom: 10px;
+    }
+    .container .right-side .about .box .project-description h4{
+        margin-top: 10px;
+    }
+    
+
+}
+
+@media (min-width: 740px) and (max-width: 1023px){
+    
+    .container .right-side .skill .box{
+        display: block;
+    }
+    .container .right-side .about .box{
+        display: block;
+    }
+    .container .right-side .about .box .project .link {
+        font-size: 1.4em;
+        padding-bottom: 10px;
+    }
+    .container .right-side .about .box .project-description h4{
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 1023px){
+
+}
