@@ -171,6 +171,11 @@ body{
     color: #fff;
     font-weight: 300;
 }
+.container .left-side .contact-info ul li a {
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+}
 .container .left-side .education{
     padding-top: 40px;
 }
