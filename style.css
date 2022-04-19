@@ -259,17 +259,28 @@ body{
 }
 
 .container .right-side .skill .box{
-    margin-top: 20px;
+    margin-top: 30px;
     position: relative;
-    display: grid;
-    grid-template-columns: 150px 1fr;
+    /* display: grid;
+    grid-template-columns: 150px 1fr 150px; */
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
+.container .right-side .skill .box:last-child{
+    margin-bottom: 60px;
+}
 .container .right-side .skill .box h4{
+    flex: 1;
     text-transform: uppercase;
     color: var(--fifth-color);
     font-weight: 600;
+}
+.container .right-side .skill .box span{
+    font-size: 1.1em;
+    color: var(--fifth-color);
+    font-weight: 700;
 }
 .container .right-side .skill .box .percent{
     position: relative;
@@ -280,13 +291,14 @@ body{
 }
 .container .right-side .skill .box .percent .progress1{
     height: 100%;
-    width: 70%;
+    width: 80%;
     background-color: var(--fourth-color);
     top: 0;
     left: 0;
     position: absolute;
     border-radius: 10px;
 }
+
 .container .right-side .skill .box .percent .progress2{
     height: 100%;
     width: 70%;
